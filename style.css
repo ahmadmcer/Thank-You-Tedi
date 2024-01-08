@@ -4,9 +4,9 @@
 }
 
 :root {
-  --pink: #F85C84;
-  --dark-pink: #B74260;
-  --shadow-3d: 0 1px 0 var(--dark-pink), 0 2px 0 var(--dark-pink), 0 3px 0 var(--dark-pink), 0 4px 0 var(--dark-pink), 0 8px 4px hsla(0, 0%, 0%, .5);
+  --blue: hsl(210, 100%, 50%);
+  --dark-blue: hsl(210, 100%, 25%);
+  --shadow-3d: 0 1px 0 var(--dark-blue), 0 2px 0 var(--dark-blue), 0 3px 0 var(--dark-blue), 0 4px 0 var(--dark-blue), 0 8px 4px hsla(0, 0%, 0%, .5);
 }
 
 
@@ -17,7 +17,7 @@ html {
 
 body {
   font-family: 'Fredoka One', cursive;
-  color: var(--pink);
+  color: var(--blue);
   height: 100%;
   position: relative;
   margin: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .tape-horizontal {
-  background-color: var(--pink);
+  background-color: var(--blue);
   width: 100%;
   height: 64px;
   border-top: 8px solid white;
@@ -47,7 +47,7 @@ body {
 }
 
 .tape-vertical {
-  background-color: var(--pink);
+  background-color: var(--blue);
   width: 64px;
   height: 100%;
   border-left: 8px solid white;
@@ -92,7 +92,7 @@ body {
 }
 
 .background {
-  background-image: url('assets/image/cat_maid_background_pink.png');
+  background-image: url('assets/image/background_cat.png');
   background-size: 1280px;
   width: 200%;
   height: 200%;
@@ -107,6 +107,7 @@ body {
 
 .background img {
   position: absolute;
+  width: 120vw;
   top: 50%;
   left: 50%;
   transform-origin: center;
@@ -149,7 +150,7 @@ body {
 .content img {
   width: 192px;
   position: relative;
-  border: 8px solid var(--pink);
+  border: 8px solid var(--blue);
   border-radius: 50%;
   box-shadow: var(--shadow-3d);
 }
@@ -190,7 +191,7 @@ body {
   display: block;
   cursor: pointer;
   width: 100%;
-  background-color: var(--pink);
+  background-color: var(--blue);
   text-align: center;
   padding: 0;
   border: none;
@@ -235,7 +236,7 @@ body {
 }
 
 .credit img {
-  background-color: var(--pink);
+  background-color: var(--blue);
   width: 100%;
   border-radius: 50%;
   box-shadow: var(--shadow-3d);
@@ -268,7 +269,7 @@ body {
 
 .gift-card button:hover {
   cursor: pointer;
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .gift-card p {
